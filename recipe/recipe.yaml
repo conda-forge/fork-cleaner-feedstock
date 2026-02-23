@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 2.3.1
+  version: "2.4.0"
 
 package:
   name: fork-cleaner
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/caarlos0/fork-cleaner/archive/v${{ version }}.tar.gz
-  sha256: 9fde99ed9877efc80e6940f9958468531b72a232d98c433cfe7022fd4c6018d8
+  sha256: 28ded4826d8a36d25857b824bea1ae480c76029ff50e8d831f79e18c360ff032
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
